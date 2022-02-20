@@ -20,7 +20,7 @@ function showTime() {
     min = min < 10 ? "0" + min : min;
     sec = sec < 10 ? "0" + sec : sec;
   
-  heading.textContent = hour + ':' + min + ':' + sec + AmPm;
+  heading.textContent = hour + ':' + min + ':' + sec + ' ' + AmPm;
 }
 
 setInterval(showTime, 1000);
